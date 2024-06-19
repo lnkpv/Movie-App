@@ -1,0 +1,35 @@
+.movie-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 16px;
+}
+
+.movie-card img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.movie-card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.movie-card__info__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.movie-card__info__year {
+    font-size: 16px;
+    color: #888888;
+}
